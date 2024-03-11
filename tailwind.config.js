@@ -10,7 +10,7 @@ module.exports = {
         'primary-blue' : '#0071A9',
       },
       height: {
-        'footer': '534px',
+        'footer': '536px',
       }
     },
   },

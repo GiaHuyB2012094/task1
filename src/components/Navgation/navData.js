@@ -1,4 +1,35 @@
+import { FaEarthAsia } from "react-icons/fa6";
+import { FaUsers } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
+
 export const navData = [
+    {
+        icon: <FaEarthAsia/>,
+        title: "Sitemap"
+    },
+    {
+        icon: <FaEarthAsia/>,
+        title: "Hạt ngọc trời"
+    },
+    {
+        icon: <FaEarthAsia/>,
+        title: "Hương vị trời"
+    },
+    {
+        icon: <FaEarthAsia/>,
+        title: "Quản nông xanh"
+    },
+    {
+        icon: <FaUsers/>,
+        title: "Tuyển dụng"
+    },
+    {
+        icon: <MdEmail/>,
+        title: "Liên hệ"
+    },
+]
+
+export const navMobileData = [
     {
         title: 'sitemap',
         url: '/home',
@@ -57,3 +88,4 @@ export const navData = [
     },
 
 ]
+

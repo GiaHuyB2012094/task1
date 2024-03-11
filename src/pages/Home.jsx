@@ -1,16 +1,18 @@
 import React from 'react'
 import Nav from '../components/Navgation/Nav'
 import Header from '../components/Header/Header'
-import Banner from '../components/Banner/Banner'
+import Feature from '../components/Feature/Feature'
 import New from '../components/New/New'
 import Footer from '../components/Footer/Footer'
+import Intro from '../components/Intro/Intro'
 
 const Home = () => {
   return (
     <div>
       <Nav/>
       <Header/>
-      <Banner/>
+      <Intro/>
+      <Feature/>
       <New/>
       <Footer/>
     </div>
