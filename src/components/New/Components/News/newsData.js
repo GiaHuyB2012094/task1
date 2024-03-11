@@ -1,4 +1,4 @@
-import img1 from '../../assets/01.png'
+import img1 from '../../../../assets/01.png';
 
 export const newsData = [
     {

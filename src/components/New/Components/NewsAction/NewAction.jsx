@@ -1,4 +1,4 @@
-import TextTitle from "../Shared/TextTitle"
+import TextTitle from "../../../Shared/TextTitle"
 import NewActionCard from "./NewActionCard"
 
 const NewAction = ({title, dataNew}) => {

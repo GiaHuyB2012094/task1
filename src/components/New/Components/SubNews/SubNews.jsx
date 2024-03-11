@@ -1,6 +1,6 @@
 import React from 'react'
 import SubNewsCard from './SubNewsCard'
-import TextTitle from '../Shared/TextTitle'
+import TextTitle from '../../../Shared/TextTitle'
 
 const SubNews = ({title, dataNew}) => {
   return (

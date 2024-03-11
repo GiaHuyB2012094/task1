@@ -1,11 +1,11 @@
 import logo from '../../assets/Logo.png'
 import { FaSearch } from "react-icons/fa";
-import { menuItemsData } from './menuItem';
-import { MenuItems } from './MenuItems';
+import { menuItemsData } from './Components/menuItem';
+import { MenuItems } from './Components/MenuItems';
 
 const Header = () => {
   return (
-    <div className="hidden xl:flex items-center justify-center gap-5 h-24 border-b border-solid text-primary-green ">
+    <div className="hidden mt-8 xl:flex items-center justify-center gap-5 h-24 border-b border-solid text-primary-green ">
         <div className="w-24">
             <img
             src={logo}

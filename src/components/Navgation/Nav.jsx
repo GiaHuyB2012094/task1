@@ -10,7 +10,7 @@ import vietnamOfFlat from '../../assets/Flag_of_Vietnam.svg.png'
 import englandOfFlat from '../../assets/Flag_of_the_United_Kingdom_(3-5).svg.png'
 import logo from '../../assets/Logo.png'
 import { useState } from "react";
-import { menuItemsData } from "../Header/menuItem";
+import { menuItemsData } from "../Header/Components/menuItem";
 import { navData } from "./navData";
 
 const Nav = () => {

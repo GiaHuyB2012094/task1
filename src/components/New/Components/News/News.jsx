@@ -1,4 +1,4 @@
-import TextTitle from "../Shared/TextTitle"
+import TextTitle from "../../../Shared/TextTitle"
 
 const News = ({title, imgI, name, desc}) => {
   return (
